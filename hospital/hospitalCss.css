@@ -1,0 +1,128 @@
+* {margin:0;padding:0}
+
+.a{
+    background-color: azure;
+    color: black;
+    font-family: Georgia;
+    font-size:14px;
+    line-height:20px;
+}
+
+.content {
+    padding: 16px;
+}
+  
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+.sticky + .content {
+    padding-top: 102px;
+}
+
+.main{
+    width:100%;
+    margin:1px auto;
+    display:block;
+    overflow:hidden;
+}
+
+.header img{
+    width:100%;
+    height:500px;
+}
+
+.mainmenu{
+    background: rgb(6, 121, 230);
+    overflow:hidden;
+    border-style: solid;
+    border-color: white;
+    font-family: Georgia;
+}
+.mainmenu ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    font-family: Georgia;
+}
+.mainmenu ul li{
+    float:left;
+    border-right:2px solid #ddd;
+    font-family: Georgia;
+}
+.mainmenu ul li a{
+    display:block;
+    color:#fff;
+    padding:13px 94.77px;
+    text-decoration:none;
+    font-family: Georgia;
+}
+.mainmenu ul li a:hover{
+    background:#fff;
+    color: rgb(6, 121, 230);
+    font-family: Georgia;
+}
+
+.maincontent{
+    margin-top:40px;
+    font-family: Georgia;
+} 
+
+.slider img{
+    float: right;
+    margin-left: 10px;
+    width: 400px;
+    height: 280px;
+    margin-top: 40px;
+
+}
+
+ .maincontent h1 {
+     text-align: center;
+     margin-bottom: 20px;
+     font-size: 35px;
+     color: rgb(74, 74, 80);
+ }
+
+ .maincontent p{
+    font-size: 20px;
+    font-family: Georgia;
+ }
+
+ .b ul {
+    font-size: 17px;
+    font-family: Georgia;
+ }
+ .b h1{
+    font-size: 35px;
+    font-family: Georgia;
+ }
+
+ .b img{
+    float: left;
+    margin-right: 35px;
+    width: 400px;
+    height: 290px;
+    margin-top: 40px;
+ }
+
+ * {margin:0;padding:0}
+
+.footer {
+    background: black;
+    color:white;
+    margin-top:0%;
+    padding:15px;
+    overflow:hidden;
+    width: 100%;
+    text-align: center;
+}
+
+.last{
+    background-color: rgb(6, 121, 230);
+    color: white;
+    margin: 0%;
+    padding-left: 5%;
+}

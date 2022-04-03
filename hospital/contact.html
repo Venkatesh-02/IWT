@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us</title>
+	<link rel="stylesheet" href="hospitalCss.css"> 
+</head>
+<body class="a">                            
+		<div class="main">
+			<div class="header">
+				<a href="hospitalHome.html"><img class="left" src="D:\venky\html\hospital\ipollo1.PNG"></a></div>
+					
+			<div class="mainmenu" id="myHeader">
+				<ul>
+					<li ><a href="hospitalHome.html">Home </a></li>
+					<li><a href="specialists.html">Specialist</a></li> 
+					<li><a href="PatientsCare.html">Patient Care </a></li>
+					<li><a href="Pharmacy.html">Pharmacy</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="contact.html">Contuct Us</a></li>
+				</ul>
+			</div>
+
+        <div class="content">
+        </div>
+
+		<div class="footer">
+			<p> <b> &copy; All Rights Reserved by Ipollo Hospital </b></p>
+				
+		</div>
+			
+			
+		</div>
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var header = document.getElementById("myHeader");
+            var sticky = header.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+              } else {
+                header.classList.remove("sticky");
+              }
+            }
+        </script>
+</body>
+</html>
